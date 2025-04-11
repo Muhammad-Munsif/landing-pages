@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Awesome Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+       
+   <header class="header">
+       <nav class="navbar container">
+      <div class="logo">MyBrand</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+    
+    <section class="hero container">
+        <h1>Your Product, Your Future</h1>
+        <p>Build amazing things with our powerful tools</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </section>
+</header>
+
+<section class="features container" id="features">
+    <h2>Features</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>Fast</h3>
+        <p>Lightning fast load times and interactions.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Secure</h3>
+        <p>Top-notch security for your peace of mind.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Responsive</h3>
+        <p>Works on all devices seamlessly.</p>
+    </div>
+</div>
+</section>
+
+<section class="contact container" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+  </section>
+  <button id="backToTop" title="Go to top">↑</button>
+
+  <footer class="footer">
+      <p>&copy; 2025 M.Munsif. All rights reserved.</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
