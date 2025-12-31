@@ -1,4 +1,3 @@
-<script>
     document.addEventListener("DOMContentLoaded", function () {
       // ====== THEME TOGGLE ======
       const themeToggle = document.getElementById("themeToggle");
@@ -265,4 +264,4 @@
         document.body.style.opacity = '1';
       }, 100);
     });
-  </script>
+  
